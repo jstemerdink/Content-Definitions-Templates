@@ -1,2 +1,2 @@
-# Content-Definitions-Templates
+# Content Definitions Templates
 Episerver Content Definitions API Templates
