@@ -1,0 +1,1429 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Shortcut/@EntryValue">optiContenType</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Description/@EntryValue">A content type definition</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Text/@EntryValue">{&#xD;
+  "id": "$guid$",&#xD;
+  "name": "$CONTENTTYPENAME$",&#xD;
+  "baseType": "$BASETYPE$",&#xD;
+  "version": "1.0.0",&#xD;
+  "supportedMediaExtensions": null,&#xD;
+  "editSettings": {&#xD;
+		"displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+        "description": "$DESCRIPTION$",&#xD;
+		"available": $AVAILABLE$,&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+  },&#xD;
+  "properties": [&#xD;
+    $END$&#xD;
+  ]&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Field/=guid/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Field/=guid/Expression/@EntryValue">guid()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Field/=guid/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Field/=guid/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Field/=CONTENTTYPENAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Field/=CONTENTTYPENAME/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Field/=BASETYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Field/=BASETYPE/Expression/@EntryValue">list("page,block,folder")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Field/=BASETYPE/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Field/=DISPLAYNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Field/=GROUPNAME/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Field/=DESCRIPTION/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Field/=DESCRIPTION/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Field/=AVAILABLE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Field/=AVAILABLE/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Field/=AVAILABLE/Order/@EntryValue">6</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=23F50EF834F628448545D88F4B7231A9/Field/=SORTORDER/Order/@EntryValue">7</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DDAA692B1478F741B6EDCD22040CA7DA/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DDAA692B1478F741B6EDCD22040CA7DA/Shortcut/@EntryValue">optiEditorDescriptionMultipleSelection</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DDAA692B1478F741B6EDCD22040CA7DA/Description/@EntryValue">Multiple selection editor</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DDAA692B1478F741B6EDCD22040CA7DA/Text/@EntryValue">{&#xD;
+  "dataType"   : "PropertyString",&#xD;
+  "uiHint"     : "$UIHINT$",&#xD;
+  "editor"     : "epi-cms/contentediting/editors/SelectionEditor",&#xD;
+  "selections" :&#xD;
+  {&#xD;
+    $END$&#xD;
+  }&#xD;
+},&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DDAA692B1478F741B6EDCD22040CA7DA/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DDAA692B1478F741B6EDCD22040CA7DA/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DDAA692B1478F741B6EDCD22040CA7DA/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DDAA692B1478F741B6EDCD22040CA7DA/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DDAA692B1478F741B6EDCD22040CA7DA/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DDAA692B1478F741B6EDCD22040CA7DA/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DDAA692B1478F741B6EDCD22040CA7DA/Field/=UIHINT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DDAA692B1478F741B6EDCD22040CA7DA/Field/=UIHINT/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71948F610497FA409B5D082ADBD1D241/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71948F610497FA409B5D082ADBD1D241/Shortcut/@EntryValue">optiEditorDescriptionSelection</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71948F610497FA409B5D082ADBD1D241/Description/@EntryValue">Selection editor</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71948F610497FA409B5D082ADBD1D241/Text/@EntryValue">{&#xD;
+  "dataType"   : "PropertyString",&#xD;
+  "uiHint"     : "$UIHINT$",&#xD;
+  "editor"     : "epi-cms/contentediting/editors/CheckBoxListEditor",&#xD;
+  "selections" :&#xD;
+  {&#xD;
+    $END$&#xD;
+  }&#xD;
+},&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71948F610497FA409B5D082ADBD1D241/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71948F610497FA409B5D082ADBD1D241/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71948F610497FA409B5D082ADBD1D241/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71948F610497FA409B5D082ADBD1D241/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71948F610497FA409B5D082ADBD1D241/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71948F610497FA409B5D082ADBD1D241/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71948F610497FA409B5D082ADBD1D241/Field/=UIHINT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71948F610497FA409B5D082ADBD1D241/Field/=UIHINT/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAD051D40C43BB4FAEA2CE88E5D4B5A3/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAD051D40C43BB4FAEA2CE88E5D4B5A3/Shortcut/@EntryValue">optiLanguageBranch</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAD051D40C43BB4FAEA2CE88E5D4B5A3/Description/@EntryValue">Languagebranch definition</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAD051D40C43BB4FAEA2CE88E5D4B5A3/Text/@EntryValue">{&#xD;
+      "name": "$NAME$",&#xD;
+      "displayName": "$DISPLAYNAME$",&#xD;
+      "urlSegment": "$URLSEGMENT$",&#xD;
+      "sortOrder": $SORTORDER$,&#xD;
+      "enabled": $ENABLED$&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAD051D40C43BB4FAEA2CE88E5D4B5A3/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAD051D40C43BB4FAEA2CE88E5D4B5A3/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAD051D40C43BB4FAEA2CE88E5D4B5A3/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAD051D40C43BB4FAEA2CE88E5D4B5A3/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAD051D40C43BB4FAEA2CE88E5D4B5A3/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAD051D40C43BB4FAEA2CE88E5D4B5A3/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAD051D40C43BB4FAEA2CE88E5D4B5A3/Field/=NAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAD051D40C43BB4FAEA2CE88E5D4B5A3/Field/=NAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAD051D40C43BB4FAEA2CE88E5D4B5A3/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAD051D40C43BB4FAEA2CE88E5D4B5A3/Field/=DISPLAYNAME/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAD051D40C43BB4FAEA2CE88E5D4B5A3/Field/=URLSEGMENT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAD051D40C43BB4FAEA2CE88E5D4B5A3/Field/=URLSEGMENT/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAD051D40C43BB4FAEA2CE88E5D4B5A3/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAD051D40C43BB4FAEA2CE88E5D4B5A3/Field/=SORTORDER/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAD051D40C43BB4FAEA2CE88E5D4B5A3/Field/=ENABLED/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAD051D40C43BB4FAEA2CE88E5D4B5A3/Field/=ENABLED/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AAD051D40C43BB4FAEA2CE88E5D4B5A3/Field/=ENABLED/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Shortcut/@EntryValue">optiMediaType</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Description/@EntryValue">A media type definition</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Text/@EntryValue">{&#xD;
+  "id": "$guid$",&#xD;
+  "name": "$MEDIATYPENAME$",&#xD;
+  "baseType": "$BASETYPE$",&#xD;
+  "version": "1.0.0",&#xD;
+  "supportedMediaExtensions": "$MEDIATYPEEXTENSIONS$",&#xD;
+  "editSettings": {&#xD;
+		"displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+        "description": "$DESCRIPTION$",&#xD;
+		"available": $AVAILABLE$,&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+  },&#xD;
+  "properties": [&#xD;
+    $END$&#xD;
+  ]&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Field/=guid/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Field/=guid/Expression/@EntryValue">guid()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Field/=guid/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Field/=guid/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Field/=BASETYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Field/=BASETYPE/Expression/@EntryValue">list("media,image,video")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Field/=BASETYPE/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Field/=DESCRIPTION/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Field/=DESCRIPTION/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Field/=AVAILABLE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Field/=AVAILABLE/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Field/=AVAILABLE/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Field/=SORTORDER/Order/@EntryValue">6</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Field/=MEDIATYPENAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Field/=MEDIATYPENAME/Order/@EntryValue">7</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Field/=MEDIATYPEEXTENSIONS/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=18C808343BCFD74EB9CE0C6508919F5D/Field/=MEDIATYPEEXTENSIONS/Order/@EntryValue">8</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Shortcut/@EntryValue">optiProperty</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Description/@EntryValue">A property definition for a template</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "$DATATYPE$",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$,&#xD;
+        "hint": "$HINT$"&#xD;
+      },&#xD;
+      "validation": [&#xD;
+        {&#xD;
+          "name": "$VALIDATORTYPE$",&#xD;
+          "minimum": $MINIMUM$,&#xD;
+          "maximum": $MAXIMUM$,&#xD;
+          "pattern": $PATTERN$,&#xD;
+          "severity": "error",&#xD;
+          "errorMessage": "$ERRORMESSAGE$"&#xD;
+        }&#xD;
+      ]&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=DATATYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=DATATYPE/Expression/@EntryValue">list("PropertyString,PropertyLongString,PropertyXhtmlString,PropertyNumber,PropertyFloatNumber,PropertyDate,PropertyBoolean,PropertyPageType,PropertyBlob,PropertyLanguage,PropertySortOrder,PropertyCategory,PropertyDropDownList,PropertyCheckBoxList,PropertyCollection,PropertyStringList,PropertyIntegerList,PropertyDoubleList,PropertyDateList,PropertyContentReference,PropertyPageReference,PropertyContentReference,PropertyUrl,PropertyLinkCollection,PropertyContentReferenceList,PropertyBlock,PropertyContentArea")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=DATATYPE/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=BRANCHSPECIFIC/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=DISPLAYNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=GROUPNAME/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=SORTORDER/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=HINT/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=HINT/Expression/@EntryValue">list(",Textarea,MediaFile,Image,Video,")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=HINT/Order/@EntryValue">6</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=VALIDATORTYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=VALIDATORTYPE/Expression/@EntryValue">list("regularExpression,length,range")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=VALIDATORTYPE/Order/@EntryValue">7</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=MINIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=MINIMUM/Order/@EntryValue">8</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=ERRORMESSAGE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=ERRORMESSAGE/Order/@EntryValue">9</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=MAXIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=MAXIMUM/Order/@EntryValue">10</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=PATTERN/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=PATTERN/Order/@EntryValue">11</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2169982F302AD448B83F5FE738C3A020/Field/=HELPTEXT/Order/@EntryValue">12</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2DDCE2E23C66414C922B69A19DCC2A26/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2DDCE2E23C66414C922B69A19DCC2A26/Shortcut/@EntryValue">optiPropertyBlob</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2DDCE2E23C66414C922B69A19DCC2A26/Description/@EntryValue">BLOB</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2DDCE2E23C66414C922B69A19DCC2A26/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertyBlob",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+      }&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2DDCE2E23C66414C922B69A19DCC2A26/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2DDCE2E23C66414C922B69A19DCC2A26/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2DDCE2E23C66414C922B69A19DCC2A26/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2DDCE2E23C66414C922B69A19DCC2A26/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2DDCE2E23C66414C922B69A19DCC2A26/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2DDCE2E23C66414C922B69A19DCC2A26/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2DDCE2E23C66414C922B69A19DCC2A26/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2DDCE2E23C66414C922B69A19DCC2A26/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2DDCE2E23C66414C922B69A19DCC2A26/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2DDCE2E23C66414C922B69A19DCC2A26/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2DDCE2E23C66414C922B69A19DCC2A26/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2DDCE2E23C66414C922B69A19DCC2A26/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2DDCE2E23C66414C922B69A19DCC2A26/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2DDCE2E23C66414C922B69A19DCC2A26/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2DDCE2E23C66414C922B69A19DCC2A26/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2DDCE2E23C66414C922B69A19DCC2A26/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2DDCE2E23C66414C922B69A19DCC2A26/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2DDCE2E23C66414C922B69A19DCC2A26/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2DDCE2E23C66414C922B69A19DCC2A26/Field/=HELPTEXT/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FCBC51BE321EDB42A49C8340DF42CA2A/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FCBC51BE321EDB42A49C8340DF42CA2A/Shortcut/@EntryValue">optiPropertyBlock</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FCBC51BE321EDB42A49C8340DF42CA2A/Description/@EntryValue">Include block data</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FCBC51BE321EDB42A49C8340DF42CA2A/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertyBlock",&#xD;
+	  "itemType": "$ITEMTYPE$",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+      }&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FCBC51BE321EDB42A49C8340DF42CA2A/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FCBC51BE321EDB42A49C8340DF42CA2A/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FCBC51BE321EDB42A49C8340DF42CA2A/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FCBC51BE321EDB42A49C8340DF42CA2A/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FCBC51BE321EDB42A49C8340DF42CA2A/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FCBC51BE321EDB42A49C8340DF42CA2A/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FCBC51BE321EDB42A49C8340DF42CA2A/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FCBC51BE321EDB42A49C8340DF42CA2A/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FCBC51BE321EDB42A49C8340DF42CA2A/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FCBC51BE321EDB42A49C8340DF42CA2A/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FCBC51BE321EDB42A49C8340DF42CA2A/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FCBC51BE321EDB42A49C8340DF42CA2A/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FCBC51BE321EDB42A49C8340DF42CA2A/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FCBC51BE321EDB42A49C8340DF42CA2A/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FCBC51BE321EDB42A49C8340DF42CA2A/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FCBC51BE321EDB42A49C8340DF42CA2A/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FCBC51BE321EDB42A49C8340DF42CA2A/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FCBC51BE321EDB42A49C8340DF42CA2A/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FCBC51BE321EDB42A49C8340DF42CA2A/Field/=HELPTEXT/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FCBC51BE321EDB42A49C8340DF42CA2A/Field/=ITEMTYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FCBC51BE321EDB42A49C8340DF42CA2A/Field/=ITEMTYPE/Order/@EntryValue">6</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=522FE09DC13D4546B1AC6A544D1CB9D4/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=522FE09DC13D4546B1AC6A544D1CB9D4/Shortcut/@EntryValue">optiPropertyBoolean</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=522FE09DC13D4546B1AC6A544D1CB9D4/Description/@EntryValue">Boolean</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=522FE09DC13D4546B1AC6A544D1CB9D4/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertyBoolean",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+      }&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=522FE09DC13D4546B1AC6A544D1CB9D4/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=522FE09DC13D4546B1AC6A544D1CB9D4/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=522FE09DC13D4546B1AC6A544D1CB9D4/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=522FE09DC13D4546B1AC6A544D1CB9D4/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=522FE09DC13D4546B1AC6A544D1CB9D4/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=522FE09DC13D4546B1AC6A544D1CB9D4/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=522FE09DC13D4546B1AC6A544D1CB9D4/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=522FE09DC13D4546B1AC6A544D1CB9D4/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=522FE09DC13D4546B1AC6A544D1CB9D4/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=522FE09DC13D4546B1AC6A544D1CB9D4/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=522FE09DC13D4546B1AC6A544D1CB9D4/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=522FE09DC13D4546B1AC6A544D1CB9D4/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=522FE09DC13D4546B1AC6A544D1CB9D4/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=522FE09DC13D4546B1AC6A544D1CB9D4/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=522FE09DC13D4546B1AC6A544D1CB9D4/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=522FE09DC13D4546B1AC6A544D1CB9D4/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=522FE09DC13D4546B1AC6A544D1CB9D4/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=522FE09DC13D4546B1AC6A544D1CB9D4/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=522FE09DC13D4546B1AC6A544D1CB9D4/Field/=HELPTEXT/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14CDB6EF0D09174088A3DCDBD1E52180/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14CDB6EF0D09174088A3DCDBD1E52180/Shortcut/@EntryValue">optiPropertyCategory</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14CDB6EF0D09174088A3DCDBD1E52180/Description/@EntryValue">Category</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14CDB6EF0D09174088A3DCDBD1E52180/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertyCategory",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+      }&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14CDB6EF0D09174088A3DCDBD1E52180/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14CDB6EF0D09174088A3DCDBD1E52180/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14CDB6EF0D09174088A3DCDBD1E52180/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14CDB6EF0D09174088A3DCDBD1E52180/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14CDB6EF0D09174088A3DCDBD1E52180/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14CDB6EF0D09174088A3DCDBD1E52180/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14CDB6EF0D09174088A3DCDBD1E52180/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14CDB6EF0D09174088A3DCDBD1E52180/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14CDB6EF0D09174088A3DCDBD1E52180/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14CDB6EF0D09174088A3DCDBD1E52180/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14CDB6EF0D09174088A3DCDBD1E52180/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14CDB6EF0D09174088A3DCDBD1E52180/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14CDB6EF0D09174088A3DCDBD1E52180/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14CDB6EF0D09174088A3DCDBD1E52180/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14CDB6EF0D09174088A3DCDBD1E52180/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14CDB6EF0D09174088A3DCDBD1E52180/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14CDB6EF0D09174088A3DCDBD1E52180/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14CDB6EF0D09174088A3DCDBD1E52180/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=14CDB6EF0D09174088A3DCDBD1E52180/Field/=HELPTEXT/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE5CEE6F95E4D64AB8C4580EC91CC110/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE5CEE6F95E4D64AB8C4580EC91CC110/Shortcut/@EntryValue">optiPropertyCheckBoxList</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE5CEE6F95E4D64AB8C4580EC91CC110/Description/@EntryValue">Checkbox list</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE5CEE6F95E4D64AB8C4580EC91CC110/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertyCheckBoxList",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+      }&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE5CEE6F95E4D64AB8C4580EC91CC110/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE5CEE6F95E4D64AB8C4580EC91CC110/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE5CEE6F95E4D64AB8C4580EC91CC110/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE5CEE6F95E4D64AB8C4580EC91CC110/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE5CEE6F95E4D64AB8C4580EC91CC110/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE5CEE6F95E4D64AB8C4580EC91CC110/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE5CEE6F95E4D64AB8C4580EC91CC110/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE5CEE6F95E4D64AB8C4580EC91CC110/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE5CEE6F95E4D64AB8C4580EC91CC110/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE5CEE6F95E4D64AB8C4580EC91CC110/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE5CEE6F95E4D64AB8C4580EC91CC110/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE5CEE6F95E4D64AB8C4580EC91CC110/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE5CEE6F95E4D64AB8C4580EC91CC110/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE5CEE6F95E4D64AB8C4580EC91CC110/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE5CEE6F95E4D64AB8C4580EC91CC110/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE5CEE6F95E4D64AB8C4580EC91CC110/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE5CEE6F95E4D64AB8C4580EC91CC110/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE5CEE6F95E4D64AB8C4580EC91CC110/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE5CEE6F95E4D64AB8C4580EC91CC110/Field/=HELPTEXT/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Shortcut/@EntryValue">optiPropertyCollection</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Description/@EntryValue">Generic list</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertyCollection",&#xD;
+	  "itemType": "$ITEMTYPE$",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+      },&#xD;
+      "validation": [&#xD;
+        {&#xD;
+          "name": "length",&#xD;
+          "minimum": $MINIMUM$,&#xD;
+          "maximum": $MAXIMUM$,&#xD;
+          "severity": "error",&#xD;
+          "errorMessage": "$ERRORMESSAGE$"&#xD;
+        }&#xD;
+      ]&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Field/=MINIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Field/=MINIMUM/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Field/=ERRORMESSAGE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Field/=ERRORMESSAGE/Order/@EntryValue">6</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Field/=MAXIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Field/=MAXIMUM/Order/@EntryValue">7</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Field/=HELPTEXT/Order/@EntryValue">8</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Field/=ITEMTYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1A5E83872FDEFB4494C9AB0BAF203937/Field/=ITEMTYPE/Order/@EntryValue">9</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8CEADF0F97B8AC4F868FCFA2D04B5CDB/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8CEADF0F97B8AC4F868FCFA2D04B5CDB/Shortcut/@EntryValue">optiPropertyContentArea</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8CEADF0F97B8AC4F868FCFA2D04B5CDB/Description/@EntryValue">Display content from other content</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8CEADF0F97B8AC4F868FCFA2D04B5CDB/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertyContentArea",&#xD;
+	  "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+      }&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8CEADF0F97B8AC4F868FCFA2D04B5CDB/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8CEADF0F97B8AC4F868FCFA2D04B5CDB/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8CEADF0F97B8AC4F868FCFA2D04B5CDB/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8CEADF0F97B8AC4F868FCFA2D04B5CDB/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8CEADF0F97B8AC4F868FCFA2D04B5CDB/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8CEADF0F97B8AC4F868FCFA2D04B5CDB/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8CEADF0F97B8AC4F868FCFA2D04B5CDB/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8CEADF0F97B8AC4F868FCFA2D04B5CDB/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8CEADF0F97B8AC4F868FCFA2D04B5CDB/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8CEADF0F97B8AC4F868FCFA2D04B5CDB/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8CEADF0F97B8AC4F868FCFA2D04B5CDB/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8CEADF0F97B8AC4F868FCFA2D04B5CDB/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8CEADF0F97B8AC4F868FCFA2D04B5CDB/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8CEADF0F97B8AC4F868FCFA2D04B5CDB/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8CEADF0F97B8AC4F868FCFA2D04B5CDB/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8CEADF0F97B8AC4F868FCFA2D04B5CDB/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8CEADF0F97B8AC4F868FCFA2D04B5CDB/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8CEADF0F97B8AC4F868FCFA2D04B5CDB/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=8CEADF0F97B8AC4F868FCFA2D04B5CDB/Field/=HELPTEXT/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=12CDA97E872ACA43A3C98DE549FCC668/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=12CDA97E872ACA43A3C98DE549FCC668/Shortcut/@EntryValue">optiPropertyContentReference</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=12CDA97E872ACA43A3C98DE549FCC668/Description/@EntryValue">Link to any content</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=12CDA97E872ACA43A3C98DE549FCC668/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertyContentReference",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+      }&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=12CDA97E872ACA43A3C98DE549FCC668/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=12CDA97E872ACA43A3C98DE549FCC668/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=12CDA97E872ACA43A3C98DE549FCC668/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=12CDA97E872ACA43A3C98DE549FCC668/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=12CDA97E872ACA43A3C98DE549FCC668/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=12CDA97E872ACA43A3C98DE549FCC668/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=12CDA97E872ACA43A3C98DE549FCC668/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=12CDA97E872ACA43A3C98DE549FCC668/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=12CDA97E872ACA43A3C98DE549FCC668/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=12CDA97E872ACA43A3C98DE549FCC668/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=12CDA97E872ACA43A3C98DE549FCC668/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=12CDA97E872ACA43A3C98DE549FCC668/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=12CDA97E872ACA43A3C98DE549FCC668/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=12CDA97E872ACA43A3C98DE549FCC668/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=12CDA97E872ACA43A3C98DE549FCC668/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=12CDA97E872ACA43A3C98DE549FCC668/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=12CDA97E872ACA43A3C98DE549FCC668/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=12CDA97E872ACA43A3C98DE549FCC668/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=12CDA97E872ACA43A3C98DE549FCC668/Field/=HELPTEXT/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Shortcut/@EntryValue">optiPropertyContentReferenceList</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Description/@EntryValue">Link to multiple internal resources</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertyContentReferenceList",&#xD;
+	  "itemType": "$ITEMTYPE$",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+      },&#xD;
+      "validation": [&#xD;
+        {&#xD;
+          "name": "length",&#xD;
+          "minimum": $MINIMUM$,&#xD;
+          "maximum": $MAXIMUM$,&#xD;
+          "severity": "error",&#xD;
+          "errorMessage": "$ERRORMESSAGE$"&#xD;
+        }&#xD;
+      ]&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Field/=MINIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Field/=MINIMUM/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Field/=ERRORMESSAGE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Field/=ERRORMESSAGE/Order/@EntryValue">6</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Field/=MAXIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Field/=MAXIMUM/Order/@EntryValue">7</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Field/=HELPTEXT/Order/@EntryValue">8</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Field/=ITEMTYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=840F62EF698D1F42AB129170A8E98FE6/Field/=ITEMTYPE/Order/@EntryValue">9</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/Shortcut/@EntryValue">optiPropertyDate</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/Description/@EntryValue">Date and time</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertyDate",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+      },&#xD;
+      "validation": [&#xD;
+        {&#xD;
+          "name": "range",&#xD;
+          "minimum": $MINIMUM$,&#xD;
+          "maximum": $MAXIMUM$,&#xD;
+          "severity": "error",&#xD;
+          "errorMessage": "$ERRORMESSAGE$"&#xD;
+        }&#xD;
+      ]&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/Field/=MINIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/Field/=MINIMUM/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/Field/=ERRORMESSAGE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/Field/=ERRORMESSAGE/Order/@EntryValue">6</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/Field/=MAXIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/Field/=MAXIMUM/Order/@EntryValue">7</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=116CEBC2F039EE4E83F5421109F7F292/Field/=HELPTEXT/Order/@EntryValue">8</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Shortcut/@EntryValue">optiPropertyDateList</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Description/@EntryValue">List of dates</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertyDateList",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+      },&#xD;
+      "validation": [&#xD;
+        {&#xD;
+          "name": "length",&#xD;
+          "minimum": $MINIMUM$,&#xD;
+          "maximum": $MAXIMUM$,&#xD;
+          "severity": "error",&#xD;
+          "errorMessage": "$ERRORMESSAGE$"&#xD;
+        },&#xD;
+		{&#xD;
+          "name": "itemRange",&#xD;
+          "minimum": $ITEMMINIMUM$,&#xD;
+          "maximum": $ITEMMAXIMUM$,&#xD;
+          "severity": "error",&#xD;
+          "errorMessage": "$ITEMERRORMESSAGE$"&#xD;
+        }&#xD;
+      ]&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Field/=MINIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Field/=MINIMUM/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Field/=ERRORMESSAGE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Field/=ERRORMESSAGE/Order/@EntryValue">6</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Field/=MAXIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Field/=MAXIMUM/Order/@EntryValue">7</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Field/=HELPTEXT/Order/@EntryValue">8</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Field/=ITEMMINIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Field/=ITEMMINIMUM/Order/@EntryValue">9</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Field/=ITEMMAXIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Field/=ITEMMAXIMUM/Order/@EntryValue">10</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Field/=ITEMERRORMESSAGE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DFDEEC4347DB504399F4632585DE0BA5/Field/=ITEMERRORMESSAGE/Order/@EntryValue">11</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Shortcut/@EntryValue">optiPropertyDoubleList</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Description/@EntryValue">List of doubles</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertyDoubleList",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+      },&#xD;
+      "validation": [&#xD;
+        {&#xD;
+          "name": "length",&#xD;
+          "minimum": $MINIMUM$,&#xD;
+          "maximum": $MAXIMUM$,&#xD;
+          "severity": "error",&#xD;
+          "errorMessage": "$ERRORMESSAGE$"&#xD;
+        },&#xD;
+		{&#xD;
+          "name": "itemRange",&#xD;
+          "minimum": $ITEMMINIMUM$,&#xD;
+          "maximum": $ITEMMAXIMUM$,&#xD;
+          "severity": "error",&#xD;
+          "errorMessage": "$ITEMERRORMESSAGE$"&#xD;
+        }&#xD;
+      ]&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Field/=MINIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Field/=MINIMUM/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Field/=ERRORMESSAGE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Field/=ERRORMESSAGE/Order/@EntryValue">6</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Field/=MAXIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Field/=MAXIMUM/Order/@EntryValue">7</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Field/=HELPTEXT/Order/@EntryValue">8</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Field/=ITEMMINIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Field/=ITEMMINIMUM/Order/@EntryValue">9</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Field/=ITEMMAXIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Field/=ITEMMAXIMUM/Order/@EntryValue">10</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Field/=ITEMERRORMESSAGE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=DA6C9414AF68E045B75C8C34C9CF4A47/Field/=ITEMERRORMESSAGE/Order/@EntryValue">11</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=719A347CFB57234E99317C90A20281F5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=719A347CFB57234E99317C90A20281F5/Shortcut/@EntryValue">optiPropertyDropDownList</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=719A347CFB57234E99317C90A20281F5/Description/@EntryValue">Dropdown list</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=719A347CFB57234E99317C90A20281F5/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertyDropDownList",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+      }&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=719A347CFB57234E99317C90A20281F5/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=719A347CFB57234E99317C90A20281F5/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=719A347CFB57234E99317C90A20281F5/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=719A347CFB57234E99317C90A20281F5/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=719A347CFB57234E99317C90A20281F5/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=719A347CFB57234E99317C90A20281F5/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=719A347CFB57234E99317C90A20281F5/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=719A347CFB57234E99317C90A20281F5/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=719A347CFB57234E99317C90A20281F5/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=719A347CFB57234E99317C90A20281F5/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=719A347CFB57234E99317C90A20281F5/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=719A347CFB57234E99317C90A20281F5/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=719A347CFB57234E99317C90A20281F5/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=719A347CFB57234E99317C90A20281F5/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=719A347CFB57234E99317C90A20281F5/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=719A347CFB57234E99317C90A20281F5/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=719A347CFB57234E99317C90A20281F5/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=719A347CFB57234E99317C90A20281F5/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=719A347CFB57234E99317C90A20281F5/Field/=HELPTEXT/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/Shortcut/@EntryValue">optiPropertyFloatNumber</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/Description/@EntryValue">Double</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertyFloatNumber",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+      },&#xD;
+      "validation": [&#xD;
+        {&#xD;
+          "name": "range",&#xD;
+          "minimum": $MINIMUM$,&#xD;
+          "maximum": $MAXIMUM$,&#xD;
+          "severity": "error",&#xD;
+          "errorMessage": "$ERRORMESSAGE$"&#xD;
+        }&#xD;
+      ]&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/Field/=MINIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/Field/=MINIMUM/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/Field/=ERRORMESSAGE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/Field/=ERRORMESSAGE/Order/@EntryValue">6</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/Field/=MAXIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/Field/=MAXIMUM/Order/@EntryValue">7</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E5345ECCE69EAC4889422B139D8A7CDE/Field/=HELPTEXT/Order/@EntryValue">8</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F787F7AF2D02F14486A2B64BE55CB286/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F787F7AF2D02F14486A2B64BE55CB286/Shortcut/@EntryValue">optiPropertyGroup</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F787F7AF2D02F14486A2B64BE55CB286/Description/@EntryValue">A group definition</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F787F7AF2D02F14486A2B64BE55CB286/Text/@EntryValue">    {&#xD;
+      "name": "$GROUPNAME$",&#xD;
+      "displayName": "$DISPLAYNAME$",&#xD;
+      "sortOrder":$SORTORDER$,&#xD;
+      "systemGroup": $SYSTEMGROUP$&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F787F7AF2D02F14486A2B64BE55CB286/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F787F7AF2D02F14486A2B64BE55CB286/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F787F7AF2D02F14486A2B64BE55CB286/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F787F7AF2D02F14486A2B64BE55CB286/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F787F7AF2D02F14486A2B64BE55CB286/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F787F7AF2D02F14486A2B64BE55CB286/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F787F7AF2D02F14486A2B64BE55CB286/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F787F7AF2D02F14486A2B64BE55CB286/Field/=GROUPNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F787F7AF2D02F14486A2B64BE55CB286/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F787F7AF2D02F14486A2B64BE55CB286/Field/=DISPLAYNAME/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F787F7AF2D02F14486A2B64BE55CB286/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F787F7AF2D02F14486A2B64BE55CB286/Field/=SORTORDER/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F787F7AF2D02F14486A2B64BE55CB286/Field/=SYSTEMGROUP/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F787F7AF2D02F14486A2B64BE55CB286/Field/=SYSTEMGROUP/Expression/@EntryValue">list("false,true")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F787F7AF2D02F14486A2B64BE55CB286/Field/=SYSTEMGROUP/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Shortcut/@EntryValue">optiPropertyIntegerList</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Description/@EntryValue">List of integers</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertyIntegerList",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+      },&#xD;
+      "validation": [&#xD;
+        {&#xD;
+          "name": "length",&#xD;
+          "minimum": $MINIMUM$,&#xD;
+          "maximum": $MAXIMUM$,&#xD;
+          "severity": "error",&#xD;
+          "errorMessage": "$ERRORMESSAGE$"&#xD;
+        },&#xD;
+		{&#xD;
+          "name": "itemRange",&#xD;
+          "minimum": $ITEMMINIMUM$,&#xD;
+          "maximum": $ITEMMAXIMUM$,&#xD;
+          "severity": "error",&#xD;
+          "errorMessage": "$ITEMERRORMESSAGE$"&#xD;
+        }&#xD;
+      ]&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Field/=MINIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Field/=MINIMUM/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Field/=ERRORMESSAGE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Field/=ERRORMESSAGE/Order/@EntryValue">6</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Field/=MAXIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Field/=MAXIMUM/Order/@EntryValue">7</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Field/=HELPTEXT/Order/@EntryValue">8</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Field/=ITEMMINIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Field/=ITEMMINIMUM/Order/@EntryValue">9</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Field/=ITEMMAXIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Field/=ITEMMAXIMUM/Order/@EntryValue">10</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Field/=ITEMERRORMESSAGE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3C3316A9F9C60A4EAE41AD8D96A57BC7/Field/=ITEMERRORMESSAGE/Order/@EntryValue">11</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=639A49CA6A69B04EBBCE94516320257E/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=639A49CA6A69B04EBBCE94516320257E/Shortcut/@EntryValue">optiPropertyLanguage</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=639A49CA6A69B04EBBCE94516320257E/Description/@EntryValue">Language</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=639A49CA6A69B04EBBCE94516320257E/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertyLanguage",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+      }&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=639A49CA6A69B04EBBCE94516320257E/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=639A49CA6A69B04EBBCE94516320257E/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=639A49CA6A69B04EBBCE94516320257E/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=639A49CA6A69B04EBBCE94516320257E/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=639A49CA6A69B04EBBCE94516320257E/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=639A49CA6A69B04EBBCE94516320257E/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=639A49CA6A69B04EBBCE94516320257E/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=639A49CA6A69B04EBBCE94516320257E/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=639A49CA6A69B04EBBCE94516320257E/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=639A49CA6A69B04EBBCE94516320257E/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=639A49CA6A69B04EBBCE94516320257E/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=639A49CA6A69B04EBBCE94516320257E/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=639A49CA6A69B04EBBCE94516320257E/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=639A49CA6A69B04EBBCE94516320257E/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=639A49CA6A69B04EBBCE94516320257E/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=639A49CA6A69B04EBBCE94516320257E/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=639A49CA6A69B04EBBCE94516320257E/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=639A49CA6A69B04EBBCE94516320257E/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=639A49CA6A69B04EBBCE94516320257E/Field/=HELPTEXT/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Shortcut/@EntryValue">optiPropertyLinkCollection</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Description/@EntryValue">Link to multiple external and/or internal resources</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertyLinkCollection",&#xD;
+	  "itemType": "$ITEMTYPE$",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+      },&#xD;
+      "validation": [&#xD;
+        {&#xD;
+          "name": "length",&#xD;
+          "minimum": $MINIMUM$,&#xD;
+          "maximum": $MAXIMUM$,&#xD;
+          "severity": "error",&#xD;
+          "errorMessage": "$ERRORMESSAGE$"&#xD;
+        }&#xD;
+      ]&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Field/=MINIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Field/=MINIMUM/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Field/=ERRORMESSAGE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Field/=ERRORMESSAGE/Order/@EntryValue">6</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Field/=MAXIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Field/=MAXIMUM/Order/@EntryValue">7</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Field/=HELPTEXT/Order/@EntryValue">8</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Field/=ITEMTYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C373223FCC8C754E81F6D20CD7BE1BCC/Field/=ITEMTYPE/Order/@EntryValue">9</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/Shortcut/@EntryValue">optiPropertyLongString</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/Description/@EntryValue">Plain long text</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertyLongString",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$,&#xD;
+		"hint": "Textarea"&#xD;
+      },&#xD;
+      "validation": [&#xD;
+        {&#xD;
+          "name": "length",&#xD;
+          "minimum": $MINIMUM$,&#xD;
+          "maximum": $MAXIMUM$,&#xD;
+          "severity": "error",&#xD;
+          "errorMessage": "$ERRORMESSAGE$"&#xD;
+        }&#xD;
+      ]&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/Field/=MINIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/Field/=MINIMUM/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/Field/=ERRORMESSAGE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/Field/=ERRORMESSAGE/Order/@EntryValue">6</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/Field/=MAXIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/Field/=MAXIMUM/Order/@EntryValue">7</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D7FA09197BBB8246B9AF32FB72FF830E/Field/=HELPTEXT/Order/@EntryValue">8</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71167419B1ED1143AA7A378BF99F22E5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71167419B1ED1143AA7A378BF99F22E5/Shortcut/@EntryValue">optiPropertyMediaReference</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71167419B1ED1143AA7A378BF99F22E5/Description/@EntryValue">Link to a media file</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71167419B1ED1143AA7A378BF99F22E5/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertyContentReference",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$,&#xD;
+		"hint": "$HINT$"&#xD;
+      }&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71167419B1ED1143AA7A378BF99F22E5/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71167419B1ED1143AA7A378BF99F22E5/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71167419B1ED1143AA7A378BF99F22E5/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71167419B1ED1143AA7A378BF99F22E5/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71167419B1ED1143AA7A378BF99F22E5/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71167419B1ED1143AA7A378BF99F22E5/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71167419B1ED1143AA7A378BF99F22E5/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71167419B1ED1143AA7A378BF99F22E5/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71167419B1ED1143AA7A378BF99F22E5/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71167419B1ED1143AA7A378BF99F22E5/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71167419B1ED1143AA7A378BF99F22E5/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71167419B1ED1143AA7A378BF99F22E5/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71167419B1ED1143AA7A378BF99F22E5/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71167419B1ED1143AA7A378BF99F22E5/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71167419B1ED1143AA7A378BF99F22E5/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71167419B1ED1143AA7A378BF99F22E5/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71167419B1ED1143AA7A378BF99F22E5/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71167419B1ED1143AA7A378BF99F22E5/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71167419B1ED1143AA7A378BF99F22E5/Field/=HELPTEXT/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71167419B1ED1143AA7A378BF99F22E5/Field/=HINT/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71167419B1ED1143AA7A378BF99F22E5/Field/=HINT/Expression/@EntryValue">list("MediaFile,Image,Video")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=71167419B1ED1143AA7A378BF99F22E5/Field/=HINT/Order/@EntryValue">6</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=244DD397CC24454BBA42C7385B4D35E0/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=244DD397CC24454BBA42C7385B4D35E0/Shortcut/@EntryValue">optiPropertyMediaUrl</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=244DD397CC24454BBA42C7385B4D35E0/Description/@EntryValue">Link to a media file with the possibility to append information in the URL</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=244DD397CC24454BBA42C7385B4D35E0/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertyUrl",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$,&#xD;
+		"hint": "$HINT$"&#xD;
+      }&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=244DD397CC24454BBA42C7385B4D35E0/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=244DD397CC24454BBA42C7385B4D35E0/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=244DD397CC24454BBA42C7385B4D35E0/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=244DD397CC24454BBA42C7385B4D35E0/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=244DD397CC24454BBA42C7385B4D35E0/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=244DD397CC24454BBA42C7385B4D35E0/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=244DD397CC24454BBA42C7385B4D35E0/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=244DD397CC24454BBA42C7385B4D35E0/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=244DD397CC24454BBA42C7385B4D35E0/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=244DD397CC24454BBA42C7385B4D35E0/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=244DD397CC24454BBA42C7385B4D35E0/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=244DD397CC24454BBA42C7385B4D35E0/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=244DD397CC24454BBA42C7385B4D35E0/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=244DD397CC24454BBA42C7385B4D35E0/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=244DD397CC24454BBA42C7385B4D35E0/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=244DD397CC24454BBA42C7385B4D35E0/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=244DD397CC24454BBA42C7385B4D35E0/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=244DD397CC24454BBA42C7385B4D35E0/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=244DD397CC24454BBA42C7385B4D35E0/Field/=HELPTEXT/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=244DD397CC24454BBA42C7385B4D35E0/Field/=HINT/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=244DD397CC24454BBA42C7385B4D35E0/Field/=HINT/Expression/@EntryValue">list("MediaFile,Image,Video")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=244DD397CC24454BBA42C7385B4D35E0/Field/=HINT/Order/@EntryValue">6</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/Shortcut/@EntryValue">optiPropertyNumber</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/Description/@EntryValue">Integer value</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertyNumber",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+      },&#xD;
+      "validation": [&#xD;
+        {&#xD;
+          "name": "range",&#xD;
+          "minimum": $MINIMUM$,&#xD;
+          "maximum": $MAXIMUM$,&#xD;
+          "severity": "error",&#xD;
+          "errorMessage": "$ERRORMESSAGE$"&#xD;
+        }&#xD;
+      ]&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/Field/=MINIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/Field/=MINIMUM/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/Field/=ERRORMESSAGE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/Field/=ERRORMESSAGE/Order/@EntryValue">6</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/Field/=MAXIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/Field/=MAXIMUM/Order/@EntryValue">7</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E9B14C8E17640741B796D8608088F426/Field/=HELPTEXT/Order/@EntryValue">8</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=784A129A574CE143B510B2A8BC7E70F6/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=784A129A574CE143B510B2A8BC7E70F6/Shortcut/@EntryValue">optiPropertyPageReference</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=784A129A574CE143B510B2A8BC7E70F6/Description/@EntryValue">Link to a page</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=784A129A574CE143B510B2A8BC7E70F6/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertyPageReference",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+      }&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=784A129A574CE143B510B2A8BC7E70F6/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=784A129A574CE143B510B2A8BC7E70F6/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=784A129A574CE143B510B2A8BC7E70F6/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=784A129A574CE143B510B2A8BC7E70F6/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=784A129A574CE143B510B2A8BC7E70F6/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=784A129A574CE143B510B2A8BC7E70F6/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=784A129A574CE143B510B2A8BC7E70F6/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=784A129A574CE143B510B2A8BC7E70F6/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=784A129A574CE143B510B2A8BC7E70F6/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=784A129A574CE143B510B2A8BC7E70F6/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=784A129A574CE143B510B2A8BC7E70F6/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=784A129A574CE143B510B2A8BC7E70F6/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=784A129A574CE143B510B2A8BC7E70F6/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=784A129A574CE143B510B2A8BC7E70F6/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=784A129A574CE143B510B2A8BC7E70F6/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=784A129A574CE143B510B2A8BC7E70F6/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=784A129A574CE143B510B2A8BC7E70F6/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=784A129A574CE143B510B2A8BC7E70F6/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=784A129A574CE143B510B2A8BC7E70F6/Field/=HELPTEXT/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56C2442C9960D7438F65D6672DF334B7/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56C2442C9960D7438F65D6672DF334B7/Shortcut/@EntryValue">optiPropertyPageType</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56C2442C9960D7438F65D6672DF334B7/Description/@EntryValue">Page type</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56C2442C9960D7438F65D6672DF334B7/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertyPageType",&#xD;
+	  "itemType": "$ITEMTYPE$",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+      }&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56C2442C9960D7438F65D6672DF334B7/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56C2442C9960D7438F65D6672DF334B7/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56C2442C9960D7438F65D6672DF334B7/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56C2442C9960D7438F65D6672DF334B7/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56C2442C9960D7438F65D6672DF334B7/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56C2442C9960D7438F65D6672DF334B7/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56C2442C9960D7438F65D6672DF334B7/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56C2442C9960D7438F65D6672DF334B7/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56C2442C9960D7438F65D6672DF334B7/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56C2442C9960D7438F65D6672DF334B7/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56C2442C9960D7438F65D6672DF334B7/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56C2442C9960D7438F65D6672DF334B7/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56C2442C9960D7438F65D6672DF334B7/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56C2442C9960D7438F65D6672DF334B7/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56C2442C9960D7438F65D6672DF334B7/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56C2442C9960D7438F65D6672DF334B7/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56C2442C9960D7438F65D6672DF334B7/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56C2442C9960D7438F65D6672DF334B7/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56C2442C9960D7438F65D6672DF334B7/Field/=HELPTEXT/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56C2442C9960D7438F65D6672DF334B7/Field/=ITEMTYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=56C2442C9960D7438F65D6672DF334B7/Field/=ITEMTYPE/Order/@EntryValue">6</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=02F1F4EF6A20BF4183753E480689266E/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=02F1F4EF6A20BF4183753E480689266E/Shortcut/@EntryValue">optiPropertySortOrder</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=02F1F4EF6A20BF4183753E480689266E/Description/@EntryValue">Sort order</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=02F1F4EF6A20BF4183753E480689266E/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertySortOrder",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+      }&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=02F1F4EF6A20BF4183753E480689266E/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=02F1F4EF6A20BF4183753E480689266E/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=02F1F4EF6A20BF4183753E480689266E/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=02F1F4EF6A20BF4183753E480689266E/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=02F1F4EF6A20BF4183753E480689266E/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=02F1F4EF6A20BF4183753E480689266E/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=02F1F4EF6A20BF4183753E480689266E/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=02F1F4EF6A20BF4183753E480689266E/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=02F1F4EF6A20BF4183753E480689266E/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=02F1F4EF6A20BF4183753E480689266E/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=02F1F4EF6A20BF4183753E480689266E/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=02F1F4EF6A20BF4183753E480689266E/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=02F1F4EF6A20BF4183753E480689266E/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=02F1F4EF6A20BF4183753E480689266E/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=02F1F4EF6A20BF4183753E480689266E/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=02F1F4EF6A20BF4183753E480689266E/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=02F1F4EF6A20BF4183753E480689266E/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=02F1F4EF6A20BF4183753E480689266E/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=02F1F4EF6A20BF4183753E480689266E/Field/=HELPTEXT/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/Shortcut/@EntryValue">optiPropertyString</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/Description/@EntryValue">Plain short text</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertyString",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+      },&#xD;
+      "validation": [&#xD;
+        {&#xD;
+          "name": "length",&#xD;
+          "minimum": $MINIMUM$,&#xD;
+          "maximum": $MAXIMUM$,&#xD;
+          "severity": "error",&#xD;
+          "errorMessage": "$ERRORMESSAGE$"&#xD;
+        }&#xD;
+      ]&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/Field/=MINIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/Field/=MINIMUM/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/Field/=ERRORMESSAGE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/Field/=ERRORMESSAGE/Order/@EntryValue">6</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/Field/=MAXIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/Field/=MAXIMUM/Order/@EntryValue">7</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=EB5E953BCE7FF6499FCDC15EC42053FC/Field/=HELPTEXT/Order/@EntryValue">8</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Shortcut/@EntryValue">optiPropertyStringList</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Description/@EntryValue">List of strings</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertyStringList",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+      },&#xD;
+      "validation": [&#xD;
+        {&#xD;
+          "name": "length",&#xD;
+          "minimum": $MINIMUM$,&#xD;
+          "maximum": $MAXIMUM$,&#xD;
+          "severity": "error",&#xD;
+          "errorMessage": "$ERRORMESSAGE$"&#xD;
+        },&#xD;
+		{&#xD;
+          "name": "itemLength",&#xD;
+          "minimum": $ITEMMINIMUM$,&#xD;
+          "maximum": $ITEMMAXIMUM$,&#xD;
+          "severity": "error",&#xD;
+          "errorMessage": "$ITEMERRORMESSAGE$"&#xD;
+        }&#xD;
+      ]&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Field/=MINIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Field/=MINIMUM/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Field/=ERRORMESSAGE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Field/=ERRORMESSAGE/Order/@EntryValue">6</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Field/=MAXIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Field/=MAXIMUM/Order/@EntryValue">7</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Field/=HELPTEXT/Order/@EntryValue">8</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Field/=ITEMMINIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Field/=ITEMMINIMUM/Order/@EntryValue">9</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Field/=ITEMMAXIMUM/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Field/=ITEMMAXIMUM/Order/@EntryValue">10</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Field/=ITEMERRORMESSAGE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F7677A5092E0174287B6EAE0E88B9B12/Field/=ITEMERRORMESSAGE/Order/@EntryValue">11</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90F735AFE8FA804B8E2FC1CDE02A43A6/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90F735AFE8FA804B8E2FC1CDE02A43A6/Shortcut/@EntryValue">optiPropertyUrl</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90F735AFE8FA804B8E2FC1CDE02A43A6/Description/@EntryValue">Link to internal or external resource</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90F735AFE8FA804B8E2FC1CDE02A43A6/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertyUrl",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+      }&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90F735AFE8FA804B8E2FC1CDE02A43A6/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90F735AFE8FA804B8E2FC1CDE02A43A6/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90F735AFE8FA804B8E2FC1CDE02A43A6/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90F735AFE8FA804B8E2FC1CDE02A43A6/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90F735AFE8FA804B8E2FC1CDE02A43A6/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90F735AFE8FA804B8E2FC1CDE02A43A6/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90F735AFE8FA804B8E2FC1CDE02A43A6/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90F735AFE8FA804B8E2FC1CDE02A43A6/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90F735AFE8FA804B8E2FC1CDE02A43A6/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90F735AFE8FA804B8E2FC1CDE02A43A6/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90F735AFE8FA804B8E2FC1CDE02A43A6/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90F735AFE8FA804B8E2FC1CDE02A43A6/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90F735AFE8FA804B8E2FC1CDE02A43A6/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90F735AFE8FA804B8E2FC1CDE02A43A6/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90F735AFE8FA804B8E2FC1CDE02A43A6/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90F735AFE8FA804B8E2FC1CDE02A43A6/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90F735AFE8FA804B8E2FC1CDE02A43A6/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90F735AFE8FA804B8E2FC1CDE02A43A6/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=90F735AFE8FA804B8E2FC1CDE02A43A6/Field/=HELPTEXT/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5A9975004084C1489E39D768E1E7C490/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5A9975004084C1489E39D768E1E7C490/Shortcut/@EntryValue">optiPropertyXhtmlString</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5A9975004084C1489E39D768E1E7C490/Description/@EntryValue">Html</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5A9975004084C1489E39D768E1E7C490/Text/@EntryValue">    {&#xD;
+      "name": "$PROPERTNAME$",&#xD;
+      "dataType": "PropertyXhtmlString",&#xD;
+      "branchSpecific": $BRANCHSPECIFIC$,&#xD;
+      "editSettings": {&#xD;
+        "displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+		"helpText": "$HELPTEXT$",&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+      }&#xD;
+    },</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5A9975004084C1489E39D768E1E7C490/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5A9975004084C1489E39D768E1E7C490/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5A9975004084C1489E39D768E1E7C490/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5A9975004084C1489E39D768E1E7C490/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5A9975004084C1489E39D768E1E7C490/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5A9975004084C1489E39D768E1E7C490/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5A9975004084C1489E39D768E1E7C490/Field/=PROPERTNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5A9975004084C1489E39D768E1E7C490/Field/=PROPERTNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5A9975004084C1489E39D768E1E7C490/Field/=BRANCHSPECIFIC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5A9975004084C1489E39D768E1E7C490/Field/=BRANCHSPECIFIC/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5A9975004084C1489E39D768E1E7C490/Field/=BRANCHSPECIFIC/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5A9975004084C1489E39D768E1E7C490/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5A9975004084C1489E39D768E1E7C490/Field/=DISPLAYNAME/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5A9975004084C1489E39D768E1E7C490/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5A9975004084C1489E39D768E1E7C490/Field/=GROUPNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5A9975004084C1489E39D768E1E7C490/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5A9975004084C1489E39D768E1E7C490/Field/=SORTORDER/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5A9975004084C1489E39D768E1E7C490/Field/=HELPTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=5A9975004084C1489E39D768E1E7C490/Field/=HELPTEXT/Order/@EntryValue">5</s:Int64></wpf:ResourceDictionary>

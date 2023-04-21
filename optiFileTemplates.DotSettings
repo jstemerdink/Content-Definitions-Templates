@@ -1,0 +1,121 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E8AA5D22E7BAC499509363157DF76CA/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E8AA5D22E7BAC499509363157DF76CA/Description/@EntryValue">A content manifest</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E8AA5D22E7BAC499509363157DF76CA/Text/@EntryValue">{&#xD;
+  "contentTypes": [&#xD;
+    $END$&#xD;
+  ],&#xD;
+  "editorDefinitions": [],&#xD;
+  "propertyGroups": [],&#xD;
+  "languageBranches": []    &#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E8AA5D22E7BAC499509363157DF76CA/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E8AA5D22E7BAC499509363157DF76CA/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E8AA5D22E7BAC499509363157DF76CA/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E8AA5D22E7BAC499509363157DF76CA/CustomProperties/=FileName/@EntryIndexedValue">contentmanifest</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E8AA5D22E7BAC499509363157DF76CA/CustomProperties/=Extension/@EntryIndexedValue">json</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E8AA5D22E7BAC499509363157DF76CA/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E8AA5D22E7BAC499509363157DF76CA/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E8AA5D22E7BAC499509363157DF76CA/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0E8AA5D22E7BAC499509363157DF76CA/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Description/@EntryValue">A content type defenition for the api</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Text/@EntryValue">{&#xD;
+  "id": "$guid$",&#xD;
+  "name": "$CONTENTTYPENAME$",&#xD;
+  "baseType": "$BASETYPE$",&#xD;
+  "version": "1.0.0",&#xD;
+  "supportedMediaExtensions": null,&#xD;
+  "editSettings": {&#xD;
+		"displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+        "description": "$DESCRIPTION$",&#xD;
+		"available": $AVAILABLE$,&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+  },&#xD;
+  "properties": [&#xD;
+    $END$&#xD;
+  ]&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/CustomProperties/=FileName/@EntryIndexedValue">contentType</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/CustomProperties/=Extension/@EntryIndexedValue">json</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Field/=guid/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Field/=guid/Expression/@EntryValue">guid()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Field/=guid/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Field/=guid/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Field/=CONTENTTYPENAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Field/=CONTENTTYPENAME/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Field/=CONTENTTYPENAME/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Field/=BASETYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Field/=BASETYPE/Expression/@EntryValue">list("page,block,folder")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Field/=BASETYPE/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Field/=DISPLAYNAME/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Field/=GROUPNAME/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Field/=DESCRIPTION/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Field/=DESCRIPTION/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Field/=AVAILABLE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Field/=AVAILABLE/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Field/=AVAILABLE/Order/@EntryValue">6</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=163F2FCE90B4FA4BA0714F6FD5D0E824/Field/=SORTORDER/Order/@EntryValue">7</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Description/@EntryValue">A media type defenition for the api</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Text/@EntryValue">{&#xD;
+  "id": "$guid$",&#xD;
+  "name": "$CONTENTTYPENAME$",&#xD;
+  "baseType": "$BASETYPE$",&#xD;
+  "version": "1.0.0",&#xD;
+  "supportedMediaExtensions": "$MEDIATYPEEXTENSIONS$",&#xD;
+  "editSettings": {&#xD;
+		"displayName": "$DISPLAYNAME$",&#xD;
+        "groupName": "$GROUPNAME$",&#xD;
+        "description": "$DESCRIPTION$",&#xD;
+		"available": $AVAILABLE$,&#xD;
+        "sortOrder": $SORTORDER$&#xD;
+  },&#xD;
+  "properties": [&#xD;
+    $END$&#xD;
+  ]&#xD;
+}&#xD;
+</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Categories/=Optimizely_0020Content_0020API/@EntryIndexedValue">Optimizely Content API</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/CustomProperties/=FileName/@EntryIndexedValue">mediaType</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/CustomProperties/=Extension/@EntryIndexedValue">json</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Scope/=139FF4CE89E7094686FDA7BF5FFBBE92/Type/@EntryValue">Everywhere</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Field/=guid/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Field/=guid/Expression/@EntryValue">guid()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Field/=guid/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Field/=guid/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Field/=CONTENTTYPENAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Field/=CONTENTTYPENAME/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Field/=BASETYPE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Field/=BASETYPE/Expression/@EntryValue">list("media,image,video")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Field/=BASETYPE/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Field/=MEDIATYPEEXTENSIONS/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Field/=MEDIATYPEEXTENSIONS/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Field/=DISPLAYNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Field/=DISPLAYNAME/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Field/=GROUPNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Field/=GROUPNAME/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Field/=DESCRIPTION/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Field/=DESCRIPTION/Order/@EntryValue">6</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Field/=AVAILABLE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Field/=AVAILABLE/Expression/@EntryValue">list("true,false")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Field/=AVAILABLE/Order/@EntryValue">7</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Field/=SORTORDER/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FD7560BD10343E4988804A3B3BE943EC/Field/=SORTORDER/Order/@EntryValue">8</s:Int64></wpf:ResourceDictionary>
